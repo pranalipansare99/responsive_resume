@@ -1,0 +1,217 @@
+.main-content{
+    min-height:1000px;
+    width:90%;
+    margin:20px auto;
+    display:grid;
+    grid-template-columns:300px 700px;
+  }
+  
+  *{
+    padding:0px;
+    box-sizing:border-box;
+    list-style:none;
+    font-family:sans-serif;
+  }
+  .left-section{
+    grid-column:span 1;
+    background-color:grey;
+  /*     padding: 1rem; */
+  }
+  .right-section{
+    grid-column:span 1/span 2;
+    background-color:skyblue;
+  }
+  section{
+    display:block;
+  }
+  body{
+    display:block;
+    background-color:pink;
+  }
+  .left-content{
+    padding:1rem;
+  }
+  .profile-img{
+    height:200px;
+    width:200px;
+    border-radius:30%;
+    margin:auto;
+    display:block;
+    padding;1rem;
+    border:5px white solid;
+    width:60%;
+  }
+  .name{
+    font-size:1.2rem;
+    font-weight:700 ;
+    text-align:center;
+   padding:0.8rem;
+    letter-spacing:0.02px;
+    text-transform:uppercase;
+    
+  }
+  .designation{
+    font-size:1rem;
+     text-align:center;
+    text-transform:uppercase;
+    padding-bottom:0.5rem;
+  }
+    
+    .line{
+    border: 2px solid black ;
+      width:250px;
+      opacity:20px;
+      
+      
+    }
+    .description{
+      font-size:0.75rem;
+       text-align:center;
+      padding:1rem;
+    }
+  .icon img{
+    heigth:20px;
+    width:20px;
+    margin-left:59px;
+  }
+  .mailimg {
+     heigth:20px;
+    width:20px;
+    margin-left:10px;
+    margin-top:20px;
+  }
+  .mailmail{
+    display:inline-block;
+  }
+  .phoneimg{
+     heigth:20px;
+    width:20px;
+    margin-left:10px;
+    margin-top:7px;
+  }
+  phonephone{
+    display:inline-block;
+  }
+  .locationimg{
+    heigth:20px;
+    width:20px;
+    margin-left:10px;
+    margin-top:7px;
+  }
+  .locloc{
+    display:inline-block;
+  }
+  .skills{
+    color:white;
+    font-size:0.75rem;
+    text-align:center;
+    text-transform:uppercase;
+    padding-top:1rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    
+  }
+  .skill-name{
+    color:white;
+    margin-left:10px;
+    font-size: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+  }
+  #progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar>div {
+    background-color: white;
+    width: 80%;
+    /* Adjust with JavaScript */
+    height: 8px;
+    border-radius: 10px;
+  }
+  #progressbar1 {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar1>div {
+    background-color: white;
+    width: 70%;
+    /* Adjust with JavaScript */
+    height: 8px;
+    border-radius: 10px;
+  }
+  #progressbar2 {
+    background-color: black;
+    border-radius: 10px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar2>div {
+    background-color: white;
+    width: 50%;
+    /* Adjust with JavaScript */
+    height: 8px;
+    border-radius: 10px;
+  }
+  #progressbar3 {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+  }
+  
+  #progressbar3>div {
+    background-color: white;
+    width: 30%;
+    /* Adjust with JavaScript */
+    height: 8px;
+    border-radius: 10px;
+  }
+  
+  .right-title{
+    text-align:center;
+    font-size:1.2rem;
+    font-weight:700px;
+    padding:0.5rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+  }
+  .right-section p{
+   text-align:center;
+  }
+  .right-section span{
+    padding-left:40px;
+  }
+  .two{
+  margin-top: 2px;
+  text-align: right !important;
+  margin-right: 30px;
+  }
+  
+  .progress-bar {
+    border: 1px white solid;
+    height:4px;
+  }
+  
+  
+  /* @media screen and (max-width:673px) {
+    .main-content{
+      grid-template-columns:repeat(1,1fr);
+  }
+  } */
+  
+  @media (max-width: 673px){
+      .main-content {
+          grid-template-columns: repeat(1, 1fr);
+          width: 90%;
+          min-height: 1000px;
+      }
+  }
+  
